@@ -1,9 +1,5 @@
-function changecolor(){
-    alert("de kleur wordt aangepast.");
-    console.log("het werkt ook in de console!");
-    Document.getElementById("tekst1").style.color = "red";
+
+function opdracht63() {
+    document.getElementById("myH1").style.color = "#ff0000";
 }
 
-function Calculator(num,num2){
-    let me answer
-}

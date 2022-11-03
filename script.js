@@ -1,11 +1,7 @@
-function kleuraanpassen(){
-    alert("de kleur wordt aangepast.");
-    console.log("het werkt ook in de console!");
-    Document.getElementById("kleur").style.color = "blue";
+function kleur_aanpassen() {
+    document.getElementById("myH1").style.color = "blue";
+    console.log("de functie werkt")
 }
 
-
-function opdr63()
-{
-
-}
+kleur_aanpassen()
+document.getElementById("myH1").innerHTML = "Inhoud aangepast!";

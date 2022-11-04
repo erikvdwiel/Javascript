@@ -37,7 +37,7 @@ function add() {
         document.getElementById("antwoord").innerHTML = "Getal te laag";
     }
     else {
-        var antwoord = getal1 + getal2;
+        var antwoord = +getal1 + +getal2;
         document.getElementById("antwoord").innerHTML = antwoord;
     }
 }

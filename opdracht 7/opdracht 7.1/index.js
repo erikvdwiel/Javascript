@@ -1,5 +1,6 @@
 let budget = 100;
-let product = 60;
+
+let product = prompt("Hoe duur is uw product? ");
 
 if (product < budget){
     document.getElementById("tekst").style.color = "green";
